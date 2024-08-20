@@ -31,11 +31,15 @@ Use your knowledge of logistic regression to complete the following steps:
   - Print the classification report.
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-### Write a Credit Risk Analysis Report (see below)
-A brief report that includes a summary and analysis of the performance of the machine learning models that were used was written.
+## Credit Risk Analysis Report (see below)
+A brief report that includes a summary and analysis of the performance of the machine learning models that were used was written below.
 
 Overview of the Analysis: The purpose of this analysis was to train and evaluate our logistic regression model to see how well it can predict a healthy or unhealthy, high-risk loan label.
 
 
 The Results:
-* 
+* According to the classfication report the accuracy score of our logistic regression model was 99%. The accuracy score tells us that our model is correct 99% of the time.
+* The precision scores of 1.00 for healthy loans (0) tells us that our 100% of the predicted positives were correct. The precision score of 85% for unhealthy, high-risk loans (1) tells us that our model predicted 85% of the unhealthy loans correctly. The macro average of the precision score was 92%. Our model's overall precision score was 92%.
+* The recall scores of 99% (0) and 91% (1), with a macro average of 95% tells us that our model was 95% accurate is measuring all true positives.
+
+In summary, although our model has 92% precision score and a 95% recall score, I would have more confidence in utilizing a model that scores at least 95% in all areas. Although our model is great at predicting and identifying healthy loans and relatively well at identifying unhealthy loans, I would not recommend the use of our model by the company. 
