@@ -31,5 +31,11 @@ Use your knowledge of logistic regression to complete the following steps:
   - Print the classification report.
 4. Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
 
-### Write a Credit Risk Analysis Report
+### Write a Credit Risk Analysis Report (see below)
 A brief report that includes a summary and analysis of the performance of the machine learning models that were used was written.
+
+Overview of the Analysis: The purpose of this analysis was to train and evaluate our logistic regression model to see how well it can predict a healthy or unhealthy, high-risk loan label.
+
+
+The Results:
+* 
